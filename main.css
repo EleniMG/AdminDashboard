@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(195, 212, 248);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+#header{
+    background-color: white;
+    grid-column: 2 / span 4;
+    grid-row: 1 / span 1
+}
+
+#sidebar{
+    grid-column: 1;
+    grid-row: 1 / span 5;
+}
+
+#dashboard-grid{
+    grid-column: 2 / span 4;
+    grid-row: 2 / span 4;
+}
+
+.projects{
+}
+
+.to-do-list{
+    
+}
+
+.announcements{
+    grid-area: announcements;
+}
