@@ -13,7 +13,7 @@ body{
     grid-column: 2 / span 4;
     grid-row: 1 / span 1;
     padding: 1em;
-    display:
+    
 }
 
 #header > .welcome {
@@ -94,7 +94,7 @@ body{
     grid-row: 4 / 7;
     background-color: rgb(253, 253, 249);
     margin: 1em;
-    padding: 1em;
+    padding: 0px 1em;
     border-radius: 20px;
 }
 
@@ -103,7 +103,7 @@ body{
     grid-row: 1 / 4;
     background-color: rgb(253, 253, 249);
     margin: 1em;
-    padding: 1em;
+    padding: 0px 1em;
     border-radius: 20px;
 }
 
