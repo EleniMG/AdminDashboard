@@ -14,25 +14,33 @@
 </head>
 <body>
     <div id="header">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <div class="searchbar"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.25" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <circle cx="10" cy="10" r="7" />
             <line x1="21" y1="21" x2="15" y2="15" />
           </svg>
           <input type="text" id="search" name="search">
-        <p>header</p>
+        </div>
+        <br>
+
+        <div class="welcome">
+        <img src="https://thenounproject.com/api/private/icons/3475210/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=true&flipY=false&foregroundColor=%23065F03&foregroundOpacity=1&imageFormat=png&rotation=0&token=gAAAAABjzWajNT7UkmEs_gYYAUJbDwSN_42rh5J6wGJRFKlnE7pbxjjCeZKVngDsjxckxLk5GTGjfZeLRpbDHRRqD4ougMcexA%3D%3D" alt="Turtle">
+        <h1>Welcome, Eleni Giannopoulos</h1>
+        </div>
     </div>
     
     <div id="sidebar">
- 
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dashboard" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <circle cx="12" cy="13" r="2" />
-            <line x1="13.45" y1="11.55" x2="15.5" y2="9.5" />
-            <path d="M6.4 20a9 9 0 1 1 11.2 0z" />
-        </svg>
-        <h1>Dashboard</h1>
+        <div class="dashboard">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dashboard" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="13" r="2" />
+                <line x1="13.45" y1="11.55" x2="15.5" y2="9.5" />
+                <path d="M6.4 20a9 9 0 1 1 11.2 0z" />
+            </svg>
+            <h1>Dashboard</h1>
+        </div>
 
+        <div class="home">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="25" height="25" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <polyline points="5 12 3 12 12 3 21 12 19 12" />
@@ -40,34 +48,44 @@
                 <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
             </svg>
             <h2>Home</h2>
+        </div>
 
+        <div class="profile">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="25" height="25" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <circle cx="12" cy="7" r="4" />
                 <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
               </svg>
             <h2>Profile</h2>
- 
+        </div>
+
+        <div class="messages">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages" width="25" height="25" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
                 <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
               </svg>
             <h2>Messages</h2>
- 
+        </div>
+
+        <div class="history">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-history" width="25" height="25" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <polyline points="12 8 12 12 14 14" />
                 <path d="M3.05 11a9 9 0 1 1 .5 4m-.5 5v-5h5" />
               </svg>
             <h2>History</h2>
+        </div>
  
+        <div class="settings">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tool" width="25" height="25" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M7 10h3v-3l-3.5 -3.5a6 6 0 0 1 8 8l6 6a2 2 0 0 1 -3 3l-6 -6a6 6 0 0 1 -8 -8l3.5 3.5" />
               </svg>
             <h2>Settings</h2>
- 
+        </div>
+
+        <div class="support">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-ambulance" width="25" height="25" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <circle cx="7" cy="17" r="2" />
@@ -76,7 +94,9 @@
                 <path d="M6 10h4m-2 -2v4" />
               </svg>
             <h2>Support</h2>
- 
+        </div>
+
+        <div class="privacy">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shield-lock" width="25" height="25" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" />
@@ -84,32 +104,39 @@
                 <line x1="12" y1="12" x2="12" y2="14.5" />
               </svg>
             <h2>Privacy</h2>
+        </div>
     </div>
   
     <div id="dashboard-grid">
         <div class="projects">
             <div class="project-elements">
                 <h3>Project 1</h3>
+                <p>Cool things</p>
             </div>
             
             <div class="project-elements">
                 <h3>Project 2</h3>
+                <p>Hey now, you're an all star</p>
             </div>
             
             <div class="project-elements">
                 <h3>Project 3</h3>
+                <p>I'm a barbie girl</p>
             </div>
             
             <div class="project-elements">
                 <h3>Project 4</h3>
+                <p><em>Insert inspirational quote here</em></p>
             </div>
             
             <div class="project-elements">
                 <h3>Project 5</h3>
+                <p>Who is Lorem?</p>
             </div>
             
             <div class="project-elements">
                 <h3>Project 6</h3>
+                <p>bla bla bla</p>
             </div>
         </div>
 
