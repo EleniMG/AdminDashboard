@@ -60,6 +60,11 @@ body{
     font-family: 'Orbitron', sans-serif;
 }
 
+#sidebar > div > svg{
+    margin-right: 1em;
+}
+
+
 
 #sidebar > div {
     display: flex;
@@ -76,6 +81,8 @@ body{
     grid-template-rows: repeat(6, 1fr);
 
 }
+
+
 
 .projects{
     grid-column: 1 / 3;
