@@ -102,6 +102,10 @@ body{
     padding: 1em;
 }
 
+.project-elements > h3{
+    font-family: 'Orbitron', sans-serif;
+}
+
 .to-do-list{
     grid-column: 3 / 4;
     grid-row: 4 / 7;
@@ -111,6 +115,10 @@ body{
     border-radius: 20px;
 }
 
+.to-do-list > h2 {
+    font-family: 'Orbitron', sans-serif;
+}
+
 .announcements{
     grid-column: 3 / 4;
     grid-row: 1 / 4;
@@ -118,6 +126,14 @@ body{
     margin: 1em;
     padding: 0px 1em;
     border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 0.5fr, repeat(3, 1fr);
+}
+
+.announcements > h2{
+    margin-bottom: -0.25em;
+    font-family: 'Orbitron', sans-serif;
 }
 
 
