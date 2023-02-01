@@ -148,3 +148,11 @@ body{
     fill: #1a7a07;
     margin-right: 1em;
 }
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+}
